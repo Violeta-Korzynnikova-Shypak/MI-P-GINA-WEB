@@ -1,13 +1,91 @@
+/* Estilo general */
 body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-}
-
-h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
   color: #333;
 }
 
+/* Contenedor central */
+body > * {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Títulos */
+h1 {
+  color: #2c3e50;
+  text-align: center;
+}
+
+h2 {
+  color: #34495e;
+  margin-top: 30px;
+}
+
+/* Menú */
+nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #6c63ff;
+  padding: 8px 12px;
+  margin: 4px;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #574fd6;
+}
+
+/* Texto */
+p {
+  line-height: 1.6;
+}
+
+/* Listas */
+ul {
+  margin-left: 20px;
+}
+
+/* Imágenes */
 img {
-  width: 200px;
-  margin: 10px 10px 10px 0;
+  width: 180px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+/* Formulario */
+form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #574fd6;
 }
